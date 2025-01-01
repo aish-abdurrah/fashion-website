@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>A's Fashion Stores</title>
+        <link href="main.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Alex Brush|Almendra Display' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="store.js" defer></script>
+    </head>
+    <body>
+        <!-- Navigation Bar Area -->
+        <nav>
+            <div>
+                <ul class="store_upper_navbar">
+                    <li><a class="stay_left hover_upper" href="index.html">A</a></li>
+                    <li><a class="top_menu" href="about.html">About Us</a></li>
+                    <li><a class="top_menu" id="special_top_menu" href="mytwin.html">My Twin</a></li>
+                    <li><a class="top_menu" href="custom.html">A's Custom Made</a></li>
+                    <li><a class="top_menu" href="news.html">A's News</a></li>
+                    <li class="stay_right"><a class="hover_upper" href="">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav>
+            <div>
+                <ul class="store_lower_navbar">
+                    <li><a class="stay_left hover_lower" href="">New Arrivals</a></li>
+                    <li><a class="shop_nav" href="">Shop</a></li>
+                    <li><a class="shop_nav" href="">A's Fashion Stores</a></li>
+                    <li><a class="shop_nav" href="">Favourites <i class="fa fa-heart-o"></i></a></li>
+                    <li class="stay_right"><a class="hover_lower"href="">Cart <i class="fa fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Carousel/Slideshow Area-->
+        <section class="slideshow">
+            <!-- Full-width images with number and caption text -->
+            <div class="slides fade">
+                <img src="homeimgs/flower.jpg">
+                <div class="text position_slide">
+                    <h1 class="slides_cap">Caption Text</h1>
+                    <p>Timeless elegance and modern flair featuring vibrant hues, intricate textures, and versatile silhouettes</p>
+                </div>
+                <!--Search Bar Area-->
+                <div class="search_bar align_center">
+                    <input type="text" placeholder="Search the store">
+                    <i class="fa fa-camera" id="camera"></i>
+                    <i class="fa fa-search" id="search_icon"></i>
+                </div>
+            </div>
+            
+            <div class="slides fade">
+                <img src="homeimgs/flower2.jpg">
+                <div class="text position_slide">
+                    <h1 class="slides_cap">Caption Text</h1>
+                    <p>Timeless elegance and modern flair featuring vibrant hues, intricate textures, and versatile silhouettes</p>
+                </div>
+                <!--Search Bar Area-->
+                <div class="search_bar align_center">
+                    <input type="text" placeholder="Search the store">
+                    <i class="fa fa-camera" id="camera"></i>
+                    <i class="fa fa-search" id="search_icon"></i>
+                </div>
+            </div>
+            
+            <div class="slides fade">
+                <img src="homeimgs/flower3.jpg">
+                <div class="text position_slide">
+                    <h1 class="slides_cap">Caption Text</h1>
+                    <p>Timeless elegance and modern flair featuring vibrant hues, intricate textures, and versatile silhouettes</p>
+                </div>
+                <!--Search Bar Area-->
+                <div class="search_bar align_center">
+                    <input type="text" placeholder="Search the store">
+                    <i class="fa fa-camera" id="camera"></i>
+                    <i class="fa fa-search" id="search_icon"></i>
+                </div>
+            </div>
+            
+            <!-- Next and previous buttons -->
+            <i class="fa fa-chevron-left prev" onclick="plusSlides(-1)"></i>
+            <i class="fa fa-chevron-right next" onclick="plusSlides(1)"></i>
+            
+            <!-- The dots/circles -->
+            <div class="position_dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <!-- Shop Navigation Bar Area -->
+        <nav>
+            <div>
+                <ul class="store_headers">
+                    <li class="store_menu" id="special_store_menu">Shop By Categories</li>
+                    <li class="store_menu" href="">|</li>
+                    <li><a class="store_menu text_underline" href="">Clothing</a></li>
+                    <li class="store_menu" href="">|</li>
+                    <li><a class="store_menu text_underline" href="">Gender</a></li>
+                    <li class="store_menu" href="">|</li>
+                    <li><a class="store_menu text_underline" href="">Season</a></li>
+                    <li class="store_menu" href="">|</li>
+                    <li><a class="store_menu text_underline" href="">Releases</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Product Display Area-->
+        <section class="align_center">
+            <div class="row">
+                <div class="product_card">
+                    <a href="">
+                        <img src="homeimgs/blouse.jpg">
+                        <div class="txt_bottom_img">
+                            <p class="special_text">Blouses</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product_card">
+                    <a href="mytwin.html">
+                        <img src="homeimgs/pants.jpg">
+                        <div class="txt_bottom_img">
+                            <p class="special_text">Pants</p>
+                        </div>
+                    </a>
+                </div>                
+                <div class="product_card">
+                    <a href="mytwin.html">
+                        <img src="homeimgs/skirt.jpg">
+                        <div class="txt_bottom_img">
+                            <p class="special_text">Skirts</p>
+                        </div>
+                    </a>
+                </div>                
+                <div class="product_card">
+                    <a href="mytwin.html">
+                        <img src="homeimgs/dress.jpg">
+                        <div class="txt_bottom_img">
+                            <p class="special_text">Dresses</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Behind The Design Section-->
+</body>

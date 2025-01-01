@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home | A's Fashion Stores</title>
+        <link href="main.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Alex Brush|Almendra Display' rel='stylesheet'>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id="backdrop"></div>
+        <form id="login" class="login">
+            <span class="close" title="Close Login" id="close_login">&times;</span>          
+            <div class="spaced">
+                <h1 class="about_headers align_center">A</h1>
+                <div class="input_field">
+                    <input type="text" placeholder="Username" name="uname" required>
+                    <i class="fa fa-user form_icon"></i>
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Password" name="psw" required>
+                    <i class="fa fa-lock form_icon"></i>
+                </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember me
+                </label>
+                <span class="psw"><a href="#" class="links">Forgot password?</a></span><br><br><br>
+                <button type="submit">Login</button><br><br>
+                <p class="normal_paragraph align_center">Don't have an account yet?<br>
+                <a id="sign_up_link" class="links">Sign Up Today!</a></p>
+            </div>
+        </form>
+        <form id="sign_up" class="sign_up">
+            <span class="close" title="Close Sign Up" id="close_sign_up">&times;</span>          
+            <div class="spaced">
+                <h1 class="about_headers align_center">A</h1>
+                <p class="align_center">Please fill in this form to create an account</p>
+                <div class="input_field">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <i class="fa fa-envelope form_icon"></i>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Create Username" name="uname" required>
+                    <i class="fa fa-user form_icon"></i>
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Create Password" name="psw" required>
+                    <i class="fa fa-lock form_icon"></i>
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Repeat Password" name="psw" required>
+                    <i class="fa fa-lock form_icon"></i>
+                </div>
+                <p>By creating an account you agree to our <a href="" class="links">Terms & Privacy</a></p><br>
+                <button type="submit">Sign Up</button><br>
+                <p class="normal_paragraph align_center">Already have an account?<br>
+                <a id="login_link" class="links">Log In!</a></p>
+            </div>
+        </form>
+        <main>
+        <!-- Navigation Bar Area -->
+        <nav>
+            <div>
+                <ul class="navbar">
+                    <li><a class="stay_left hover_upper" href="index.html">A</a></li>
+                    <li><a class="top_menu" href="about.html">About Us</a></li>
+                    <li><a class="top_menu" href="store.html">A's Fashion Stores</a></li>
+                    <li><a class="top_menu" href="mytwin.html">My Twin</a></li>
+                    <li><a class="top_menu" href="custom.html">A's Custom Made</a></li>
+                    <li><a class="top_menu" href="news.html">A's News</a></li>
+                    <li class="stay_right"><a class="hover_upper" id="login_nav">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Welcome Section Area-->
+        <section class="align_center">
+            <h1>Welcome to A's Fashion Stores</h1>
+            <h3>~ Let's get you started ~</h3><br>
+            <a class="sign_up_button" id="login_btn">Sign In</a>
+        </section>
+        <br>
+        <br>
+        <!--Explore Section Area-->
+        <br>
+        <br>
+        <hr>
+        <section class="align_center">
+            <h2>What would you like to explore?</h2>
+            <div class="row">
+                <div class= "col-4">
+                    <a href="mytwin.html">
+                    <img src="homeimgs/model.jfif" id="model">
+                    <div class="txt_center_img">
+                        <p class="special_text">Create Your Digital Twin</p>
+                    </div>
+                    </a>
+                </div>
+                <div class= "col-4">
+                    <a href="store.html">
+                    <img src= "homeimgs/shopimg.jpg" id="shop">
+                    <div class="txt_center_img">
+                        <p class="special_text">Shop A's Fashion Stores</p>
+                    </div>
+                    </a>
+                </div>
+                <div class= "col-4">
+                    <a href="custom.html">
+                    <img src="homeimgs/custom.jpg" id="custom">
+                    <div class="txt_center_img">
+                        <p class="special_text">See/Create Custom Outfits</p>
+                    </div>
+                    </a>
+                </div>
+                <div class= "col-4">
+                    <a href="news.html">
+                    <img src="homeimgs/newsimg.jpg" id="news">
+                    <div class="txt_center_img">
+                        <p class="special_text">Read Our Newsletter</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Know More Section Area-->
+        <br>
+        <br>
+        <hr>
+        <section class="align_center">
+            <h2>Want to know more about what we do?</h2>
+            <div class="mix_row">
+                <p class="text_col">Check out our About Page<br>
+                    <a class="links" href="about.html">Learn more »</a>
+                </p>
+                
+                <img class="img_col" src="homeimgs/showroom.jpg">
+            </div>
+            <div class="mix_row">
+                <img class="img_col" src="homeimgs/showroom_2.jpg">
+                <p class="text_col"> Visit our Display Store<br>
+                    <a class="links" href="">See Store Locations »</a>
+                </p>
+            </div>
+        </section><br><br>
+        <!--Footer Area-->
+        <div>
+            <div class="footer_col">
+                <!--This has link to careers, partners, research, foundations, , display store loctions 
+                and our story page-->
+                <h4>About Us</h4>
+                <a href="" class="footer_link">Our Story</a>
+                <a href="" class="footer_link">Careers</a>
+                <a href="" class="footer_link">Research</a>
+                <a href="" class="footer_link">Partners</a>
+                <a href="" class="footer_link">Foundations</a>
+                <a href="" class="footer_link">Display Stores</a>
+            </div>
+            <div class="footer_col">
+                <!--This has shop womens, shop mens, shop tweens, shop teens, shop kids, create twin, 
+                create custom outfit, Orders & Payments-->
+                <h4>Shop</h4>
+                <a href="" class="footer_link">Shop Womens</a>
+                <a href="" class="footer_link">Shop Mens</a>
+                <a href="" class="footer_link">Shop Teens</a>
+                <a href="" class="footer_link">Shop Tweens</a>
+                <a href="" class="footer_link">Shop Kids</a>
+                <a href="" class="footer_link">My Twin</a>
+                <a href="" class="footer_link">Custom Outfits</a>
+                <a href="" class="footer_link">Orders & Payments</a>
+            </div>
+            <div class="footer_col">
+                <!--This has links to all our runway and fashion show collections-->
+                <h4>Runway Collections</h4>
+                <a href="" class="footer_link">Blooming Youth</a>
+                <a href="" class="footer_link">Forgotten Beauties</a>
+                <a href="" class="footer_link">Lost In Your Eyes</a>
+                <a href="" class="footer_link">Mother Nature</a>
+                <a href="" class="footer_link">Africana</a>
+            </div>
+            <div class="footer_col">
+                <!--Will be in a line, contact details, shipping policies, terms and conditions, sizing charts, 
+                return policies, help centers, socials, FAQ -->
+                <h4>Help</h4>
+                <a href="" class="footer_link">FAQ</a>
+                <a href="" class="footer_link">Sizing Instructions</a>
+                <a href="" class="footer_link">Care Instructions</a>
+                <a href="" class="footer_link">My Twin Tutorial</a>
+                <a href="" class="footer_link">Shipping Policy</a>
+                <a href="" class="footer_link">Returns & Exchanges</a>
+                <a href="" class="footer_link">Terms & Conditions</a>
+            </div>
+            <div class="footer_col">
+                <!--Has sign-up for newsletter form in it-->
+                <h4>Newsletter</h4>
+                <h5>Sign Up to get the latest news on sales, drops, collections, giveaways and to get a virtual copy of the exclusive A's News</h5>
+                <input type="text" placeholder="Your Email"><br><br>
+                <a type="submit" class="sign_up_button">Sign Up</a><br><br><br>
+                <div class="socials">
+                    <!--Will be in a line, contact details, socials, call, youtube, linkedin, instagram, email--> 
+                    <a href="tel:5134628019"><i class="fa fa-phone icon"></i></a>
+                    <a href="mailto:aisharasheed2000@gmail.com"><i class="fa fa-envelope icon"></i></a>
+                    <a href="https://www.instagram.com/aish_harun/"><i class="fa fa-instagram icon" style="font-size:18px"></i></a>
+                    <a href="http://www.youtube.com/@aisharasheed956"><i class="fa fa-youtube-play icon"></i></a>
+                    <a href="https://www.linkedin.com/in/aisha-abdurrahman/"><i class="fa fa-linkedin icon"></i></a>                       
+                </div>
+            </div>            
+        </div>
+        </main>
+
+
+
+
+    </body>

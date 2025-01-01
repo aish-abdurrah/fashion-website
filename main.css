@@ -1,0 +1,500 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:bisque;
+    text-align: center;
+    height: 2cm;
+    font-family: 'Alex Brush';
+    font-size: 23px;
+} 
+.store_upper_navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:bisque;
+    text-align: center;
+    height: 2cm;
+    font-family: 'Alex Brush';
+    font-size: 23px;
+} 
+.store_lower_navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cornsilk;
+    text-align: center;
+    height: 2cm;
+    font-family: 'Alex Brush';
+    font-size: 23px;
+} 
+.store_headers{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    text-align: center;
+    height: 1.5cm;
+    font-family: 'Garamond' , serif;
+}
+.stay_left{
+    display: block;
+    color: black;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+li{
+    float: left;
+}
+.top_menu{
+    display: block;
+    color: black;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+.top_menu:hover{
+    color: white;
+}
+#special_top_menu{
+    padding-left: 310px;
+}
+.shop_nav{
+    display: block;
+    color: black;
+    padding: 30px 100px;
+    text-decoration: none;
+}
+.store_menu{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 20px 10px;
+    font-size: larger;
+}
+#special_store_menu{
+    padding: 20px 20px;
+}
+.shop_nav:hover{
+    color:dimgray;
+}
+.stay_right{
+    float: right;
+    display: block;
+    padding: 30px 30px;
+}
+.stay_right a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.hover_upper:hover{
+    color: white;
+    cursor: pointer;
+}
+.hover_lower:hover{
+    color: dimgray;
+}
+h1{
+    color: burlywood;
+    font-family: 'Alex Brush';
+    font-weight: 100;
+    font-size: 80px;
+}
+.about_headers{
+    color: burlywood;
+    font-family: 'Alex Brush';
+    font-weight: 100;
+    font-size: 45px;
+}
+h2{
+    color:steelblue;
+    font-family: 'Garamond' , serif;
+    font-weight: 100;
+    font-size: xx-large;
+}
+h3{
+    color: cadetblue;
+    font-family: 'Papyrus', fantasy;
+    font-style: italic;
+    font-weight: 100;
+    font-size: x-large;
+}
+h4{
+    padding-top: 30px;
+    font-family: 'Alex Brush';
+    font-size: 23px;
+    font-weight: 100;
+}
+h5{
+    font-family: 'Garamond' , serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+}
+.normal_paragraph{
+    font-family: 'Garamond' , serif;
+}
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.input_field{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.active{
+    text-decoration:underline;
+}
+.links{
+    text-decoration-line: none;
+    color:blueviolet;
+}
+.links:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.align_center{
+    text-align: center;
+}
+.sign_up_button{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    border-radius: 6px;
+    margin: 0;
+    padding: 10px;
+    width: 1in;
+    font-size: 15px;
+}
+.sign_up_button:hover{
+    background-color: #00bcd1;
+    border: 1px solid #00bcd1;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button{
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    border-radius: 6px;
+    margin: 0;
+    padding: 10px;
+    width: 2in;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button:hover{
+    background-color: white;
+    border: white;
+    color: cornflowerblue;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.row{
+    content: "";
+    clear: both;
+}
+.col-4{
+    width: 25%;
+    float: left;
+    position: relative; 
+    transition: 0.15s;
+}
+.col-4:hover {
+    transform: scale(1.05);
+}
+.col-4 img{
+    width: 100%;
+    float: left; 
+}
+.col-4 .txt_center_img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */
+}
+.special_text{
+    font-family: 'Almendra Display';
+    font-weight: 700;
+    font-size: xx-large;
+    color: black;
+}
+.mix_row{
+    display: flex;
+    align-items: center;
+}
+.img_col{
+    float: right;
+    width: 50%;
+}
+.text_col{
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-family: 'Almendra Display';
+    font-weight: 500;
+    font-size: xx-large;
+}
+.footer_col{
+    width: 210px;
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 12.5px;
+    height: 9cm;
+    background-color: bisque;
+}
+.footer_link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.footer_link:hover{
+    text-decoration: underline;
+}
+.icon{
+    padding-left: 10px;
+    color: black;
+}
+.icon:hover{
+    color: dimgray;
+}
+.form_icon{
+    padding: 10px;
+    background: white;
+    color: bisque;
+    min-width: 10px;
+    max-height: 8px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: -35px;
+}
+.spaced{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text_content{
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.search_bar input{
+    width: 25%;
+    padding: 9.5px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing:content-box;
+    position: absolute;
+    top: 2.5%;
+    left: 37%;
+}
+#search_icon {
+    padding: 8px;
+    padding-bottom: 0.25cm;
+    background:cornsilk;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    top: 2.5%;
+    left: 61%;
+}
+#camera{
+    position: absolute;
+    top: 4%;
+    left: 59%;
+}
+#camera:hover{
+    cursor: pointer;
+}
+form {
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: bisque;
+}
+span.psw {
+    float: right;
+}
+.close {
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+    color:burlywood;
+    font-size: xx-large;
+}
+.close:hover{
+    color:white;
+    cursor: pointer;
+}
+.login{
+    position: fixed;
+    z-index: 100;
+    width: 80%;
+    top: 15vh;
+    left: 10%;
+    display: none;
+}
+.login.visible {
+    display: block;
+    animation: fade-slide-in 0.3s ease-out forwards;
+}
+.sign_up{
+    position: fixed;
+    z-index: 100;
+    width: 80%;
+    top: 5vh;
+    left: 10%;
+    display: none;
+}
+.sign_up.visible {
+    display: block;
+    animation: fade-slide-in 0.3s ease-out forwards;
+}
+#backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+    pointer-events: none;
+    display: none;
+}
+#backdrop.visible {
+    display: block;
+    pointer-events: all;
+}
+
+
+
+/*Slideshow container*/
+/* Hide the images by default */
+.slides {
+    position: relative;
+    margin: auto;
+    display: none;
+ }
+.slides img{
+    width: 100%;
+    max-height: 6in;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+} 
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: beige;
+}
+  
+/* Caption text */
+.text {
+    bottom: 8px;    
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active_slide, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slides_cap{
+    color: black;
+    font-family: 'Alex Brush';
+    font-weight: 100;
+    font-size: 80px;
+}
+.position_slide{
+    padding-left: 80px;
+    position: absolute;
+    top: 30%;
+}
+.position_dot{
+    padding-left: 80px;
+    position: absolute;
+    top: 110%;
+}
+.text_underline:hover{
+    text-decoration: underline;
+}
+
+.product_card{
+    width: 23.3%;
+    margin: 10px;
+    float: left;
+    position: relative; 
+}
+.product_card:hover {
+    transform: scale(1.05);
+}
+.product_card img{
+    width: 100%;
+    float: left; 
+}
+.product_card .txt_bottom_img {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */
+}
